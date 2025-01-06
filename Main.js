@@ -32,7 +32,7 @@ if(sonuc){
         odenecekTutar = Customer.hesapla();
 
         alert(
-            `Musteri Bilgileri : ${isim} ${soyisim}
+            `Musteri Bilgileri : ${Customer.isim} ${Customer.soyisim}
              OdenecekTutar : ${odenecekTutar}   
             `);
 

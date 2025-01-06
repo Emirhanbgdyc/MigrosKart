@@ -33,4 +33,11 @@ class MigrosBase {
       return false;
     }
   }
+
+  getIsim(){
+    return this.isim;
+  }
+  getSoyisim(){
+    return this.soyisim;
+  }
 }
